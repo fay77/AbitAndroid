@@ -6,21 +6,20 @@ import android.support.annotation.Nullable;
 import android.widget.ListView;
 
 /**
- * Created by feng.gao on 2017/5/16.
+ * Created by feng.gao on 2017/5/17.
  */
 
-public class ListManuActivity extends Activity {
+public class RxJavaMainActivity extends Activity {
+    private String[] titles = new String[]{ "zip符合练习"  };
     private ListView mListView;
-    private String[] titles = new String[]{"竖直viewpager + 弹性滑动srcollView" , "RxJava练习"};
-    private ManuAdapter mManuAdapter;
+    private RxJavaListAdapter mRxJavaListAdapter;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.manu_list_layout);
         mListView = (ListView) findViewById(R.id.listView);
-        mManuAdapter = new ManuAdapter(titles, this);
-        mListView.setAdapter(mManuAdapter);
-
+        mRxJavaListAdapter = new RxJavaListAdapter(titles, this);
+        mListView.setAdapter(mRxJavaListAdapter);
 
     }
 }

@@ -11,11 +11,11 @@ import android.widget.Button;
  * Created by feng.gao on 2017/5/16.
  */
 
-public class ManuAdapter extends BaseAdapter {
+public class RxJavaListAdapter extends BaseAdapter {
     private String[] titles;
     private Context mContext;
 
-    public ManuAdapter(String[] titles , Context context) {
+    public RxJavaListAdapter(String[] titles , Context context) {
         this.titles = titles;
         this.mContext = context;
     }
@@ -53,11 +53,7 @@ public class ManuAdapter extends BaseAdapter {
             public void onClick(View view) {
                 switch (i) {
                     case 0:
-                        mContext.startActivity(new Intent(mContext, MainActivity.class));
-                        break;
-                    case 1:
-                        mContext.startActivity(new Intent(mContext, RxJavaMainActivity.class));
-
+                        mContext.startActivity(new Intent(mContext, RxJavaZipActivity.class));
                         break;
                 }
 
