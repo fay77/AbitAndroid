@@ -1,4 +1,4 @@
-package fr.castorflex.android.verticalviewpager.sample;
+package fr.castorflex.android.verticalviewpager.sample.rxjava;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import fr.castorflex.android.verticalviewpager.sample.R;
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;

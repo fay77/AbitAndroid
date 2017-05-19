@@ -1,4 +1,4 @@
-package fr.castorflex.android.verticalviewpager.sample;
+package fr.castorflex.android.verticalviewpager.sample.rxjava;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+
+import fr.castorflex.android.verticalviewpager.sample.R;
 
 /**
  * Created by feng.gao on 2017/5/16.
@@ -54,6 +56,9 @@ public class RxJavaListAdapter extends BaseAdapter {
                 switch (i) {
                     case 0:
                         mContext.startActivity(new Intent(mContext, RxJavaZipActivity.class));
+                        break;
+                    case 1:
+                        mContext.startActivity(new Intent(mContext , RxJavaMapActivity.class));
                         break;
                 }
 

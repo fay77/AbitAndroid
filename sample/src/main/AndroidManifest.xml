@@ -17,8 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"/>
-        <activity android:name=".RxJavaMainActivity"/>
-        <activity android:name=".RxJavaZipActivity"/>
+        <activity android:name=".rxjava.RxJavaMainActivity"/>
+        <activity android:name=".rxjava.RxJavaZipActivity"/>
+        <activity android:name=".rxjava.RxJavaMapActivity"/>
     </application>
 
 </manifest>

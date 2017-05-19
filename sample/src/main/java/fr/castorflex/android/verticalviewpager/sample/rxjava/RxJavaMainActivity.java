@@ -1,16 +1,18 @@
-package fr.castorflex.android.verticalviewpager.sample;
+package fr.castorflex.android.verticalviewpager.sample.rxjava;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.ListView;
 
+import fr.castorflex.android.verticalviewpager.sample.R;
+
 /**
  * Created by feng.gao on 2017/5/17.
  */
 
 public class RxJavaMainActivity extends Activity {
-    private String[] titles = new String[]{ "zip符合练习"  };
+    private String[] titles = new String[]{ "zip符合练习"  , "map练习"  };
     private ListView mListView;
     private RxJavaListAdapter mRxJavaListAdapter;
     @Override

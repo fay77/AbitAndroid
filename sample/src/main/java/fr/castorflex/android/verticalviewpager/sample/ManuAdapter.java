@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 
+import fr.castorflex.android.verticalviewpager.sample.rxjava.RxJavaMainActivity;
+
 /**
  * Created by feng.gao on 2017/5/16.
  */
