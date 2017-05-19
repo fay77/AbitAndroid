@@ -12,7 +12,7 @@ import fr.castorflex.android.verticalviewpager.sample.R;
  */
 
 public class RxJavaMainActivity extends Activity {
-    private String[] titles = new String[]{ "zip符合练习"  , "map练习"  };
+    private String[] titles = new String[]{ "zip符合练习"  , "flatMap练习"  };
     private ListView mListView;
     private RxJavaListAdapter mRxJavaListAdapter;
     @Override
