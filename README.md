@@ -19,3 +19,11 @@
 
 ![RxJava中关于zip操作符的练习](https://github.com/fay77/AbitAndroid/blob/master/sample/src/main/res/mipmap-xxxhdpi/rxjava_zip.gif)
 
+
+</br>
+</br>
+</br>
+
+
+![RxJava中关于map操作符的练习](https://github.com/fay77/AbitAndroid/blob/master/sample/src/main/res/mipmap-xxxhdpi/map_gif.gif)
+
